@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Alerta de Enchentes</title>
+        <link rel="stylesheet" href="ladoalado.css">
+    </head>
+    <body bgcolor="#dadcce">
+        <div class="lado">
+        <a href="index.html"><img src="logo.png" height="50" weight="100"></a>
+        <p class="contato">
+            <a href="https://www.instagram.com/alerta_das_enchentes/"><h2>Contato</h2></a> 
+        </p>
+        </div>
+        <br>
+        <center>
+        <img src="FOTOSEPARAda.jpeg">
+        <br><br>
+         <button onclick="abriralerta()">Clique para Estar por Dentro do Alerta </button> 
+          <br><br>
+          <h3>Local da Ajuda
+          <br>
+          |
+          <br>
+          v
+          </h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d862.8769416186863!2d-51.323413994500896!3d-30.108280665550243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197f8b8842cccd%3A0xd4d4f292b9c639bb!2sE%20E%20de%201%C2%BA%20Grau%20Nestor%20de%20Moura%20Jardim!5e0!3m2!1spt-BR!2sbr!4v1724805300495!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
+    </body> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function abriralerta(){
+            Swal.fire({
+                    title: "ALERTA!",
+                    text: "VÁ PARA UM LUGAR SEGURO!",
+                    icon: "warning"
+            });
+        }
+    </script>
+</html>
